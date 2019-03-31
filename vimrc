@@ -8,13 +8,13 @@ filetype plugin indent on
 
 " enable syntax hightlight and completion
 syntax on
-
+syntax enable
 "--------
 " Vim UI
 "--------
 " color scheme
 set background=dark
-color solarized
+colorscheme darkblue
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -75,6 +75,11 @@ let g:html_indent_style1 = "inc"
 "-----------------
 " Plugin settings
 "-----------------
+
+" => ctags
+set tags=tags;
+set autochdir
+
 " Rainbow parentheses for Lisp and variants
 let g:rbpt_colorpairs = [
     \ ['brown',       'RoyalBlue3'],
