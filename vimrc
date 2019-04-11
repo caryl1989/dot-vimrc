@@ -167,7 +167,9 @@ let g:user_emmet_expandabbr_key='<C-j>'
 
 " NeoComplCache
 let g:neocomplcache_enable_at_startup=1
-let g:neoComplcache_disableautocomplete=1
+let g:neoComplcache_disable_auto_complete=1
+let g:neocomplcache_enable_insert_char_pre=1
+let g:neocomplcache_enable_cursor_hold_i=1
 "let g:neocomplcache_enable_underbar_completion = 1
 "let g:neocomplcache_enable_camel_case_completion = 1
 let g:neocomplcache_enable_smart_case=1
