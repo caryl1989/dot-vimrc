@@ -12,9 +12,9 @@ Bundle 'gmarik/vundle'
 " Code Completions
 "------------------
 Bundle 'Shougo/neocomplcache'
-Bundle 'mattn/emmet-vim'
-Bundle 'Raimondi/delimitMate'
-Bundle 'ervandew/supertab'
+"Bundle 'mattn/emmet-vim'
+"Bundle 'Raimondi/delimitMate'
+"Bundle 'ervandew/supertab'
 Bundle 'mbbill/echofunc'
 " snippets
 Bundle 'garbas/vim-snipmate'
@@ -26,12 +26,12 @@ Bundle 'tomtom/tlib_vim'
 "-----------------
 " Fast navigation
 "-----------------
-Bundle 'Lokaltog/vim-easymotion'
+"Bundle 'Lokaltog/vim-easymotion'
 
 "--------------
 " Fast editing
 "--------------
-Bundle 'tpope/vim-surround'
+"Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'sjl/gundo.vim'
 Bundle 'godlygeek/tabular'
@@ -60,10 +60,10 @@ Bundle 'nvie/vim-togglemouse'
 " Syntax/Indent for language enhancement
 "----------------------------------------
 "------- Go ----------
-Bundle 'fatih/vim-go'
+"Bundle 'fatih/vim-go'
 
 "------- FPs ------
-Bundle 'kien/rainbow_parentheses.vim'
+"Bundle 'kien/rainbow_parentheses.vim'
 
 "--------------
 " Color Schemes
