@@ -1,5 +1,14 @@
 source ~/.vim/bundles.vim
 
+"关闭vi兼容模式"
+set nocompatible
+
+"当文件在外部被修改时，自动更新该文件"
+set autoread
+
+"带有如下符号的单词不要被换行分割"
+set iskeyword+=_,$,@,%,#,-
+
 " encoding dectection
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 
@@ -14,7 +23,11 @@ syntax enable
 "--------
 " color scheme
 set background=dark
-colorscheme darkblue
+"colorscheme darkblue
+
+"设置字体"
+"set guifont=dejaVu\ Sans\ MONO\ 10
+set guifont=Courier_New:h10:cANSI
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
